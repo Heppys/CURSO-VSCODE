@@ -9,6 +9,6 @@ const saudacao = ()=>
 return data.getHours() <= 12? "Bom dia!!!": data.getHours() <= 18? "Boa tarde!!!": "Boa noite!!!"
 }    
 
-//testetetetststetet => 
+//Executando as Funções
 HelloWorld();
 console.log('A saudacao do momento é ' + saudacao());
